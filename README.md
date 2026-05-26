@@ -1,52 +1,44 @@
-# Thejashrii-DevPortfolio
+# Welcome to My Professional Engineering Portfolio! 👩‍💻
 
-Welcome to my professional portfolio! 👩‍💻 Here, you’ll find a collection of my projects, technical skills, and experiences in the field of embedded systems and programming.  
+Hi, I'm **Thejashrii Bathulaa**. I am an Embedded Firmware Engineer specializing in designing, debugging, and deploying production-grade Industrial IoT (IIoT) solutions, communication gateways, and automated sensor arrays. 
 
+This repository serves as a centralized hub for my technical skills, architectural designs, and engineering journey.
 
-## 🛠️ **Skills**  
-- **Programming Languages:** C, Embedded C, C++, Python
-- **Microcontrollers:** ARM, 8051, Ardiuno  
-- **Tools & Technologies:** Keil, Proteus, Linux (Kernel Modules)  
-- **Protocols:** UART, SPI, I2C, CAN
-- **Debugging:** Keil Debugger
+🛠️ Technical Expertise
 
-
-
-## 🌟 **Projects**  
-
-### **1. Vehicle Control Implementation using CAN Protocol**  
-**Description:** A system to control vehicle functions (like lights,reverse - alert etc.) using the CAN communication protocol.  
-**Technologies:** CAN Protocol, Embedded C  
-[Repository Link](#) *(to be added)*  
+* **Programming Languages:** C, Embedded C, C++, Python
+* **Microcontrollers & Platforms:** STM32, ESP32 (ESP-IDF), ARM7 (LPC2129), 8051
+* **Industrial Protocols:** CAN, Modbus (RTU / TCP / ASCII), MQTT, UART, SPI, I2C
+* **Operating Systems / RTOS:** FreeRTOS concepts.
+* **Tools & IDEs:** STMCube IDE, Keil uVision, GDB Debugger, VS Code, Git, Proteus
 
 
-### **2. Accident Alertness System**  
-**Description:** A safety system designed to detect potential vehicle accidents and send alerts, developed during my internship at ECIL.  
-**Technologies:** Embedded C, Micro-controllers 
-[Repository Link](#) *(to be added)* 
+🌟 Professional & Project Experience
+
+1. Industrial IoT Modbus Gateways
+* **Overview:** Driving firmware architectures for client-facing communication gateways.
+* **Key Achievements:** Optimized real-time data pipelines using Modbus and MQTT stacks.
+  
+
+2. Vehicle Control Implementation via CAN Protocol (Vector Institute) 🚗
+* **Description:** Designed a multi-node automotive control network establishing reliable communication between distributed ECUs on an ARM7 framework.
+* **Technologies:** CAN Protocol, Embedded C, LPC2129, Keil
+
+3. Accident Alertness System (ECIL Internship) ⚠️
+* **Description:** Developed a vehicular safety framework utilizing accelerometer data processing algorithms and active GPS/GSM modules to relay real-time crash coordinates to emergency services.
+* **Technologies:** Embedded C, Microcontrollers, GSM/GPS Interfacing
 
 
-## 📄 **Resume and CV**  
-Find my detailed [https://1drv.ms/b/c/2a349b359efb1b56/EbmXV1hQsLZMnmRgrFse-OoB8C1u5nBX25SliPJDGyCRyw?e=aIdAq0](resume.pdf) and [CV](cv.pdf) *(to be added)*here.  
+📄 Core Repositories & Code Samples
+* 🔹 **https://github.com/Thejashrii/CortexCraftt/tree/master** - Deep dive into my custom algorithmic logic.
 
----
 
-## 🤝 **Collaboration**  
-I’m always looking to collaborate on:  
-- Embedded systems projects  
-- Open-source initiatives  
-- Kernel module development  
+🤝 Collaboration & Interests
+I am always excited to connect and collaborate on:
+* Low-level Embedded C/C++ development
+* Open-source industrial automation tooling
 
----
-
-## 📫 **Contact Me** 
-- **Email:** [email@Thejashrii](mailto:thejashriibathulaa33@gmail.com)
-- **GitHub Discussions:** [@Thejashrii](https://github.com/Thejashrii)  
-
----
-
-## 🌱 **About Me**  
-I’m passionate about embedded systems and strive to build impactful solutions using technology. My goal is to grow as a professional in Embedded C programming and contribute to innovative projects.  
-
----
+📫 Contact Me
+* **Email:**[email@Thejashrii](mailto:thejashriibathulaa33@gmail.com)
+* **GitHub Profile:** [@Thejashrii](https://github.com/Thejashrii)# Thejashrii-DevPortfolio
 
