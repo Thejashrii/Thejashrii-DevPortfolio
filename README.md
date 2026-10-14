@@ -1,4 +1,4 @@
-# Welcome to My Professional Engineering Portfolio! 👩‍💻
+# Welcome to My Portfolio! 👩‍💻
 
 Hi, I'm **Thejashrii Bathulaa**. I am an Embedded Firmware Engineer specializing in designing, debugging, and deploying production-grade Industrial IoT (IIoT) solutions, communication gateways, and automated sensor arrays. 
 
