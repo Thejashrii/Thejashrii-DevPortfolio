@@ -1,44 +1,53 @@
-# Welcome to My Portfolio! 👩‍💻
+Thejashrii Bathulaa — Embedded Firmware Engineer
 
-Hi, I'm **Thejashrii Bathulaa**. I am an Embedded Firmware Engineer specializing in designing, debugging, and deploying production-grade Industrial IoT (IIoT) solutions, communication gateways, and automated sensor arrays. 
+Embedded Firmware Engineer with nearly 2 years of experience designing, debugging, and deploying production firmware in Embedded C / C++ for ESP32 (ESP-IDF) industrial IoT products using FreeRTOS.
 
-This repository serves as a centralized hub for my technical skills, architectural designs, and engineering journey.
+Based in Hyderabad, Telangana | Open to Embedded Firmware / RTOS roles
 
-🛠️ Technical Expertise
+Technical Expertise
 
-* **Programming Languages:** C, Embedded C, C++, Python
-* **Microcontrollers & Platforms:** STM32, ESP32 (ESP-IDF), ARM7 (LPC2129), 8051
-* **Industrial Protocols:** CAN, Modbus (RTU / TCP / ASCII), MQTT, UART, SPI, I2C
-* **Operating Systems / RTOS:** FreeRTOS concepts.
-* **Tools & IDEs:** STMCube IDE, Keil uVision, GDB Debugger, VS Code, Git, Proteus
+Languages: Embedded C, C++, Python.
 
+Platforms & MCUs: ESP32 (ESP-IDF, dual-core Xtensa), ARM7 (LPC2129),STM32.
 
-🌟 Professional & Project Experience
+RTOS & Concurrency: FreeRTOS (tasks, queues, mutexes, semaphores, event groups, task notifications)
 
-1. Industrial IoT Modbus Gateways
-* **Overview:** Driving firmware architectures for client-facing communication gateways.
-* **Key Achievements:** Optimized real-time data pipelines using Modbus and MQTT stacks.
-  
+Protocols & Buses: Modbus (RTU / TCP / ASCII), CAN, MQTT (TLS), RS-485, UART (circular ring buffers, DMA), SPI, I2C
 
-2. Vehicle Control Implementation via CAN Protocol (Vector Institute) 🚗
-* **Description:** Designed a multi-node automotive control network establishing reliable communication between distributed ECUs on an ARM7 framework.
-* **Technologies:** CAN Protocol, Embedded C, LPC2129, Keil
+Firmware Concepts: Dual-partition OTA & rollback, flash/NVS partitioning, ISRs, memory-mapped I/O, watchdog timers
 
-3. Accident Alertness System (ECIL Internship) ⚠️
-* **Description:** Developed a vehicular safety framework utilizing accelerometer data processing algorithms and active GPS/GSM modules to relay real-time crash coordinates to emergency services.
-* **Technologies:** Embedded C, Microcontrollers, GSM/GPS Interfacing
+Debug & Toolchain: Logic Analyzer, DSO, ST-Link, JTAG/SWD, GDB, Wireshark, STM32CubeIDE, Keil uVision, VS Code, Git
 
+Experience & Key Projects
 
-📄 Core Repositories & Code Samples
-* 🔹 **https://github.com/Thejashrii/CortexCraftt/tree/master** - Deep dive into my custom algorithmic logic.
+1. Industrial Multi-Protocol IoT Gateways (Production Firmware)
+
+Developed dual-core ESP-IDF + FreeRTOS firmware for concurrent sensor acquisition and cloud telemetry with NVS configuration caching.
+
+Implemented a fail-safe dual-partition (ota_0 / ota_1 / otadata) OTA update pipeline with cryptographic verification and watchdog-triggered rollback.
+
+Built a Modbus RTU/TCP-to-MQTT bridge converting PLC register data into JSON payloads with zero hardware changes.
+
+Wrote interrupt-driven UART and RS-485 drivers with circular ring buffers and DMA for loss-free high-baud capture.
 
 
-🤝 Collaboration & Interests
-I am always excited to connect and collaborate on:
-* Low-level Embedded C/C++ development
-* Open-source industrial automation tooling
+2. Multi-Node Vehicle Control over CAN (ARM7 / LPC2129)
 
-📫 Contact Me
-* **Email:**[email@Thejashrii](mailto:thejashriibathulaa33@gmail.com)
-* **GitHub Profile:** [@Thejashrii](https://github.com/Thejashrii)# Thejashrii-DevPortfolio
+Implemented a distributed ECU network on a CAN bus with custom bit timing, hardware acceptance filters, and prioritized arbitration for speed alerts, turn indicators, and reverse proximity sensing.
+
+Stack: Embedded C, CAN, LPC2129, Keil uVision
+
+3. Vehicle Accident Impact & Emergency Alert System (ECIL Internship)
+
+Built bare-metal firmware interfacing a 3-axis accelerometer to detect impact thresholds, log GPS coordinates, and transmit automated GSM emergency alerts.
+
+Stack: Embedded C, GPS/GSM interfacing
+
+Public Code Repositories
+
+CortexCraftt — Custom algorithmic logic and embedded C practice modules.
+
+Contact
+
+Email: bathulaathejashrii@gmail.com
 
